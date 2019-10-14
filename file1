@@ -1,0 +1,83 @@
+
+user@DESKTOP-RNP04VR MINGW64 ~
+$ pwd
+/c/Users/user
+
+user@DESKTOP-RNP04VR MINGW64 ~
+$ mkdir Devops
+
+user@DESKTOP-RNP04VR MINGW64 ~
+$ pwd
+/c/Users/user
+
+user@DESKTOP-RNP04VR MINGW64 ~
+$ cd Devops
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ pwd
+/c/Users/user/Devops
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ git config--global user.name "Abhishek Mondal"
+git: 'config--global' is not a git command. See 'git --help'.
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ git config --global user.name "Abhishek Mondal"
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ git config --global user.email abhi2006mondal@gmail.com
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge --skip -- %f
+filter.lfs.process=git-lfs filter-process --skip
+filter.lfs.required=true
+credential.helper=manager
+user.name=Abhishek Mondal
+user.email=abhi2006mondal@gmail.com
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ pwd
+/c/Users/user/Devops
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ mkdir Firstrepo
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ pwd
+/c/Users/user/Devops
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops
+$ cd Firstrepo
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops/Firstrepo
+$ pwd
+/c/Users/user/Devops/Firstrepo
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops/Firstrepo
+$ git init
+Initialized empty Git repository in C:/Users/user/Devops/Firstrepo/.git/
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops/Firstrepo (master)
+$ ls -al
+total 4
+drwxr-xr-x 1 user 197121 0 Oct 14 16:11 ./
+drwxr-xr-x 1 user 197121 0 Oct 14 16:09 ../
+drwxr-xr-x 1 user 197121 0 Oct 14 16:11 .git/
+
+user@DESKTOP-RNP04VR MINGW64 ~/Devops/Firstrepo (master)
+$
+
